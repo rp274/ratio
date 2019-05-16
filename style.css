@@ -1,0 +1,49 @@
+body {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  background-color: #eee;
+}
+
+.container {
+    margin-top: 50px;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: right;
+    background-color: rgba(255,255,255,.5);
+    border: 2px  solid white;
+    border-radius: 50px;
+    box-shadow: 0px 5px 15px;
+}
+
+form {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label{
+  margin: 10px;
+}
+
+input {
+  margin: 5px;
+}
+
+#results {
+  min-height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+  color: red;
+}
+
+footer{
+  margin-top: 100px;
+  color: #bbb;
+
+}

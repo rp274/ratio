@@ -5,7 +5,7 @@ body {
   font-family: sans-serif;
   background: url(https://images.unsplash.com/reserve/uZYSV4nuQeyq64azfVIn_15130980706_64134efc6e_o.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1494&q=80);
   background-size: cover;
-  backgroung-repeat: no-repeat;
+  background-repeat: no-repeat;
 }
 
 .container {
@@ -17,10 +17,14 @@ body {
     justify-content: center;
     flex-direction: column;
     text-align: right;
-    background-color: rgba(255,255,255,.9);
+    background-color: rgba(255, 255, 255, 0.9);
     border: 2px  solid white;
     border-radius: 50px;
-    box-shadow: 0px 5px 15px;
+	box-shadow: 0px 5px 15px;
+}
+
+h1 {
+	margin-top: 0;
 }
 
 form {
@@ -30,10 +34,24 @@ form {
 
 label{
   margin: 10px;
+  font-size: 12pt;
 }
 
 input {
   margin: 5px;
+  width: 75px;
+  /* background-color: black;
+  color:white; */
+}
+
+.calculate{
+	width: 125px;
+	margin-top: 15px;
+	padding: 5px;
+	font-size: 10pt;
+	background-color: limegreen;
+	color: white;
+	font-weight: bolder;
 }
 
 #results {
@@ -46,6 +64,6 @@ input {
 
 footer{
   margin-top: 100px;
-  color: darkgray;
-
+  padding-bottom: 50px;
+  color: rgba(255, 255, 255, 0.9);
 }
